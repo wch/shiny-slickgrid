@@ -8,3 +8,6 @@ To install, install the `devtools` package if necessary (`install.packages("devt
 ```
 devtools::install_github("shiny-slickgrid", "wch")
 ```
+
+
+In the /inst/slickgrid directory, all the files are from [Slickgrid](https://github.com/mleibman/SlickGrid), except for shiny-slickgrid.js, which contains code for connecting Slickgrid to Shiny.
