@@ -9,7 +9,7 @@ $(function(){ //DOM Ready
     // Treat ar as a column-first array, t as a row-first array
     var cols = ar.length;
     var rows = ar[0].length;
-    var t = new Array(rows);
+    var t = [];
     var i, j;
 
     for (i = 0; i < rows; i++) {
